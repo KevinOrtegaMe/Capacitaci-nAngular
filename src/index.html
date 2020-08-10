@@ -1,0 +1,179 @@
+<!doctype html>
+<!--Angular9:: Resumen de la clase dada en la conferencia numero 1:: HTML5-->
+<html>
+<meta charset= "UTF-8">
+	<head>
+	<link rel= StyleSheet href="styles.css" type="text/css" media="screen">
+	<link rel= StyleSheet href="grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!--<style>
+			body {
+			background-image: url('img/fondo.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			}
+		</style>-->
+		<title>
+			Tarea Unificada- HTML- CSS- TS
+    </title>
+    
+	</head>
+
+	<body>
+	<div id="navigation_bar">
+		<ul>
+		  <li><a href="#intro_css">¿Qué es CSS3?</a></li>
+		  <li><a href="#ofrecer_css3">¿Qué te puede ofrecer CSS3?</a></li>
+		  <li><a href="#responsive">¿Sabes qué es Responsive?</a></li>
+		</ul>
+	</div>
+	
+	<div id="intro_css">
+		<h1>
+      <app-first-component> Angular 9: CSS3</app-first-component>
+			
+		</h1>
+		<tr>
+			<p><img src="assets/css3_logo.png" alt="Logo CSS3">
+				En caso de quererle dar un formato chévere y acorde al tema al esqueleto de tu <br>página web CSS3 estará a la medida de lo que buscas. 
+				<span>Recuerda</span> que debe ser <br>llamativo y apropiado para el mercado para el que deseas apuntar	y de esa manera <br>podrás acaparar
+				la atención de ellos y muchos más.<br> <br>Siendo tú el diseñador o en tal caso, deseas modificar un trabajo ya establecido, <br>podrás 
+				tener control de cada sección en cuanto a apareciencia de tu página web. <br>De esta manera podrás cambiar totalmente la apariencia 
+				solo con modificar una<br> hoja de trabajo de CSS3 (StyleSheet) sin necesidad de cambiar algo del codigo<br> del BackEnd.<br><br>
+				A CSS3 se suman nuevos efectos que harán que la parte visual de la página sea <br>mucho más agradable y llamativa, como sombras y efectos 3D.
+			<br>
+			<p>Para poder usar una hoja de estilo CSS en una hoja de HTML, en este caso
+				mi hoja de estilo con la que estoy trabajando es "style.css", se procede de la siguiente manera: </p>
+			<textarea><link rel= StyleSheet href="styles.css" type="text/css" media="screen"></textarea>
+			<div class="caracteristicas">
+				<h3>Principales caracteristicas de CSS3</h3>
+				<p>
+					<ul>
+						<li><span>MÓDULO DEL COLOR CSS3:</span></li>
+						CSS3 soporta más color y una gama más amplia de las definiciones del color. 
+						Los nuevos colores que proporciona CSS3 es HSL, CMYK, HSLA y RGBA.
+						<li><span>ESQUINAS REDONDEADAS O BORDES REDONDEADOS:</span></li>
+						Crea fácilmente las esquinas redondeadas para cualquier caja usando border-radius 
+						y background position.
+						<li><span>CAJAS CON SOMBRA:</span></li>
+						Box-shadow permite agregar un efecto de sombra sin usar imágenes a un elemento seleccionado. 
+						Box-shadow es soportado actualmente del Safari 3+ y Firefox 3.1+.
+						<li><span>MÚLTIPLES COLUMNAS (MULTIPLE COLUMNS):</span></li>
+						Este módulo de CSS3 permite colocar los textos en varias columnas de forma mucho más 
+						simple usando las propiedades: -moz-column-count and -moz-column-width.
+						<li><span>SOMBRA PARA TEXTO:</span></li>
+						text-shadow de CSS3 permite agregar una sombra a cada letra del texto. 
+						Esta propiedad no es nueva en CSS3, fue propuesto originalmente en CSS2, pero quitado en CSS 2.1.
+					</ul>
+				</p>
+			</div>
+	</div>	
+
+	
+</tr>		
+	<hr>
+
+	<div id="ofrecer_css3">
+		<br><br>
+		<tr>
+			<h2>
+				¿Qué te puede ofrecer CSS3?  <i class="material-icons">computer</i>
+			</h2>
+			<br><br>
+			<div class="grid_container">
+				<article class="item1">
+						<h2>Frameworks</h2>
+						<p>Y como ya bien sabemos, en todo ámbito , el tiempo es oro y más para la comodidad y beneficio del usuario.<br>
+							CSS cuenta con un grupo de Frameworks los cuales lo ayudan a saciar funciones básicas o módulos genéricos 
+							y asi es más rapido y sencillo tanto el trabajo del desarrollador como de la página en manos del cliente.<br>
+							Normalmente se compone de uno o varios archivos con declaraciones predefinidas.<br><br>
+							Aquí unos de los Frameworks más importantes para CSS.<br>
+						</p>
+						<ul>
+							<li>BOOTSTRAP</li>
+							<li>FOUNDATION</li>
+							<li>SKELETON</li>
+							<li>HTML5 BOILERPLATE</li>
+							<li>HTML KICKSTART</li>
+						</ul>	  
+				</article>
+				<article class="item2">
+						<h2> Curiosidades de CSS3</h2>
+							<p>En Internet hay basta documentación sobre lo que CSS3 te puede ofrecer 
+							pero tambien hay pequeños detalles de los cuales no todos hablan.
+							Para más información visita este 
+							<a 
+							href="https://marketingaparte.com/boulevard/internet-y-paginas-web/curiosidades-sobre-css-que-no-sabias/" 
+							target="_blank">sitio web.
+							</a> 
+							</p>
+				</article>
+				<article class="item3">
+					<img src="assets/css.png" alt="Flujo_CSS">
+				</article>
+			</div>
+		</tr>
+	</div>
+
+	<hr>
+
+		<br><br>
+		<div id="responsive">
+			<br><br>
+			<h2>CSS Responsive</h2>
+			<table>
+				<tr>
+					<th class="concepto_rwd">
+						<h3>
+							RWD
+						</h3>		
+						<p>Proveniente de sus siglas Resective Design Web (Diseño Web Receptivo). 
+						<br>La razón principal para mantener su diseño receptivo es aumentar el alcance
+						 de su aplicación a una base de usuarios más grande utilizando una variedad de dispositivos</p>
+					</th>
+					
+					<th class="tecnologias_modernas">
+						<h3>
+							Tecnologias modernas
+						</h3>
+						<p>Existen métodos modernos de diseño de páginas web que asumen que tratas <br>
+							de crear una cuadrícula flexible y te proporcionan los modos más fáciles de hacerlo.</p>
+
+						<ul>
+							<li>Multicol</li>
+							<li>Flexbox</li>
+							<li>Grid CSS</li>
+						</ul>
+					</th>
+				</tr>
+				</table>
+				
+				<table>
+				<tr>
+					<th class="tipos_receptivo">
+						<h3>
+							Tipos de diseño receptivo
+						</h3>
+						<ol>
+							<li>Adaptado</li><br><img src="assets/adaptado.png" alt="tipo_adaptado">
+								<p>Entregarán diferentes sitios web según el tipo de dispositivo que visite el sitio. <br>
+									Esto significa que el sitio móvil será totalmente <br>diferente de (y separado de) el escritorio.<br><br>
+									Es decir:<br>3 sitios web / Tipo de dispositivo / Cambia el contenido</p><br>
+								
+								<br><br><br><br>
+							<li>Responsive</li><br><img src="assets/responsive.png" alt="tipo_responsive">
+								<p>Es una forma de crear sitios web, por lo que el contenido se reorganiza según el tamaño de la pantalla. <br>
+									Puede saber si un sitio responde cambiando el tamaño de la ventana de su navegador. <br>
+									¿El contenido se reorganiza a sí mismo? Si es así, entonces el sitio responde.<br><br>
+									Es decir:<br>1 sitio web / Tamaño de pantalla / No cambia contenido</p><br>
+							
+							<br>
+						</ol>
+					</th>
+				</tr>
+			</table>
+		<!--<a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p> -->
+		</div>
+	</body>
+</html>
